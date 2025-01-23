@@ -71,6 +71,7 @@
 /* Banner Styles */
 .banner{
     gap: 50px;
+    
 }
 .banner-title{
     font-weight: 700;
@@ -91,7 +92,7 @@
     margin-bottom: 0;
 }
 .banner-img{
-    max-width: 668px;
+    width: 100%;
 }
 
 .title1{
@@ -124,6 +125,8 @@
     .nav-btn{
         visibility: hidden;
     }
-    
-    
+    .banner{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
 }
